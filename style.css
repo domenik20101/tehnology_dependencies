@@ -1,0 +1,23 @@
+body {
+    font-family: Arial,  sans-serif; /* Семейство шрифтов */
+    font-size: 16px; /* Размер основного шрифта в <p></p>  */
+    background-color: #9ed112; /* Цвет фона веб-страницы */
+    color: #0d4661; /* Цвет основного текста */ 
+}
+h1 {
+    color: #00a2a8; /* Цвет заголовка */
+    font-size: 24px; /* Размер шрифта в пунктах */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+    animation:move 10s infinite;    
+}
+@keyframes move{
+    0% {
+        margin-left: 0;
+    }
+    50%{
+        margin-left: 600px;
+    }
+    100%{
+        margin-left: 0;
+    }
+}
